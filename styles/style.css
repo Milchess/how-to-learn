@@ -127,6 +127,120 @@
   font-weight: bold;
 }
 
+.techniques {
+  margin: 100px auto 0;
+  width: 80%;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  width: 920px;
+}
+
+.cards__item {
+  margin: 0 100px 0 0;
+  flex-basis: min-content;
+}
+
+.cards__item:nth-of-type(3n){
+  margin-right: 0;
+}
+
+.cards__image {
+  margin: 60px 40px 43px;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+
+.cards__title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.cards__description {
+  margin: 16px 0 0 0;
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.video {
+  margin: 100px 0 0 0;
+}
+
+.video__iframes {
+  margin: 50px auto 0;
+  display: flex;
+  justify-content: center;
+}
+
+.video__iframe {
+  margin-right: 20px;
+}
+
+.oakley {
+  margin: 100px 0 0 0;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+}
+
+.feynman {
+  min-height: 890px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-color: #f2f2f2;
+  background-image: url(../images/feynman.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: 867px 637px;
+}
+
+.feynman__title {
+  padding: 100px 0 0 0;
+  margin: 0;
+  max-width: 648px;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+}
+
+.feynman__subtitle {
+  padding-top: 70px;
+  margin: 0;
+  text-align: center;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.feynman__link {
+  top: 50%;
+  right: 48px;
+  position: absolute;
+  text-decoration: none;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  color: #2f80ed;
+}
+
+.feynman__link:hover {
+  text-decoration: underline;
+}
+
 .digits {
   margin: 100px auto 100px;
 }
@@ -180,50 +294,71 @@
   margin: 0;
 }
 
-.feynman {
-  min-height: 890px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-  background-color: #f2f2f2;
-  background-image: url(../images/feynman.png);
-  background-repeat: no-repeat;
-  background-position: bottom left;
-  background-size: 867px 637px;
+.khan__container {
+  padding-top: 105px;
+  margin: 0 auto;
+  width: 80%;
 }
 
-.feynman__title {
-  padding: 100px 0 0 0;
+.khan__author {
   margin: 0;
-  max-width: 648px;
-  text-align: center;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.khan__title {
+  margin: 0;
   line-height: 1.15;
-  font-size: 120px;
+  font-size: 60px;
   font-weight: bold;
 }
 
-.feynman__subtitle {
-  padding-top: 70px;
+.khan__quote {
+  max-width: 790px;
+  padding: 50px 0 36px 0;
   margin: 0;
-  text-align: center;
-  line-height: 51px;
-  font-size: 36px;
+  line-height: 34px;
+  font-size: 24px;
   font-weight: normal;
 }
 
-.feynman__link {
-  top: 50%;
-  right: 48px;
-  position: absolute;
-  text-decoration: none;
-  line-height: 51px;
-  font-size: 36px;
+.khan__quote-author{
+  margin: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.khan__quote-author-subline {
+  padding: 10px 0 38px 0;
+  margin: 0;
+  line-height: 1.15;
+  font-size: 24px;
   font-weight: normal;
+}
+
+.khan__book-container {
+  display: flex;
+}
+
+.khan__book-pic {
+  width: 620px;
+  height: 608px;
+  padding-right: 48px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.khan__buy-link {
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  text-decoration: none;
   color: #2f80ed;
 }
 
-.feynman__link:hover {
+.khan__buy-link:hover {
   text-decoration: underline;
 }
 
@@ -266,6 +401,28 @@
   height: 877px;
   width: 877px;
   z-index: 0;
+}
+
+.resources {
+  margin: 100px auto 217px;
+}
+
+.resources__logo-zone {
+  padding: 80px 0 0 0;
+  margin: 0 auto;
+  width: 1100px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.resources__link {
+  width: 270px;
+  height: 38px;
+}
+
+.resources__link:hover {
+  text-decoration: underline;
 }
 
 .footer {

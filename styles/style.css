@@ -155,15 +155,11 @@
   padding: 0;
   margin: 0 auto;
   width: 920px;
+  gap: 100px 60px;
 }
 
 .cards__item {
-  margin: 0 100px 0 0;
   flex-basis: min-content;
-}
-
-.cards__item:nth-of-type(3n){
-  margin-right: 0;
 }
 
 .cards__image {
@@ -198,14 +194,7 @@
   margin: 50px auto 0;
   display: flex;
   justify-content: center;
-}
-
-.video__iframe {
-  margin-right: 20px;
-}
-
-.video__iframe:last-of-type {
-  margin-right: 0;
+  gap: 20px;
 }
 
 .oakley {
